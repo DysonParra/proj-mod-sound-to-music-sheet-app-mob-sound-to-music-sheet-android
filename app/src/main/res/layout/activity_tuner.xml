@@ -1,0 +1,85 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnRecord"
+    />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnRecord"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnNext"
+    />
+
+    <TextView
+        android:id="@+id/txtVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnNext"
+        android:layout_centerHorizontal="false"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/txtVolume"
+    />
+
+    <EditText
+        android:id="@+id/editTextVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0sp"
+        android:layout_marginRight="0sp"
+        android:layout_toRightOf="@id/txtVolume"
+        android:layout_alignBaseline="@+id/txtVolume"
+        android:textSize="@dimen/textViewSize"
+        android:ems="3"
+        android:inputType="numberDecimal"
+        android:text="10"
+        android:maxLength="4"
+        android:textAlignment="textEnd"
+    />
+
+    <TextView
+        android:id="@+id/txtPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0sp"
+        android:layout_marginRight="0sp"
+        android:layout_toRightOf="@id/editTextVolume"
+        android:layout_alignBaseline="@+id/txtVolume"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/txtPercent"
+    />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/plot"
+        style="@style/APDefacto.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/txtVolume">
+    </com.androidplot.xy.XYPlot>
+
+</RelativeLayout>

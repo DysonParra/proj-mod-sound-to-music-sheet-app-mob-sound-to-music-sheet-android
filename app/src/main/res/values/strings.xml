@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Sound to music sheet</string>
+    <string name="btnNewMusicSheet">Create Music Sheet</string>
+    <string name="btnEditMusicSheet">Add notes at end of\nexist music sheet</string>
+    <string name="btnExit">Exit</string>
+
+    <string name="txtA4">A4 affination</string>
+    <string name="txtHz">Hertz</string>
+    <string name="txtSignature">Key Signature</string>
+    <string name="txtMeasureIndicator">Measure indicator</string>
+    <string name="txtSlash">/</string>
+    <string name="txtClef">Clef</string>
+    <string name="txtIn">in</string>
+    <string name="txtTranspose">transpose</string>
+    <string name="txtTempo">Tempo</string>
+    <string name="txtIqual">=</string>
+    <string name="txtBpm">Bpm</string>
+    <string name="btnStart">Start</string>
+
+    <string-array name="signature">
+        <item>No signature</item>
+        <item>B♭</item>
+        <item>E♭</item>
+        <item>A♭</item>
+        <item>D♭</item>
+        <item>G♭</item>
+        <item>C♭</item>
+        <item>F♭</item>
+        <item>F♯</item>
+        <item>C♯</item>
+        <item>G♯</item>
+        <item>D♯</item>
+        <item>A♯</item>
+        <item>E♯</item>
+        <item>B♯</item>
+    </string-array>
+
+    <string-array name="measureQuantity">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="measureType">
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="key">
+        <item>G</item>
+        <item>F</item>
+        <item>C</item>
+    </string-array>
+
+    <string-array name="keyLine">
+        <item>1st</item>
+        <item>2st</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+    </string-array>
+
+    <string-array name="octave">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+    <string-array name="tempo">
+        <item>B</item>
+        <item>♩</item>
+        <item>♪</item>
+    </string-array>
+
+    <string name="A4Error">Write a A4 affination between 30 and 3520</string>
+    <string name="tempoError">Write a tempo between 10 and 210</string>
+    <string name="backBtn">Back</string>
+    <string name="cancelRecord">Are you sure you want to finish the recording without saving?</string>
+
+    <string name="btnNext">Continue</string>
+    <string name="txtVolume">Enter the minimum volume to detect a note:</string>
+    <string name="txtPercent">%</string>
+    <string name="txtMaxVolume">Maximum volume:</string>
+    <string name="volumeError">Write a volume between 0 and 99</string>
+
+    <string name="btnRecord">Record</string>
+    <string name="btnStop">Stop</string>
+    <string name="btnEditInformation">Edit music sheet\ninformation</string>
+    <string name="btnEndMusicSheet">End music sheet</string>
+
+
+
+    <string name="radioBtnMeasureYes">Edit measure</string>
+    <string name="radioBtnMeasureNo">Do not edit measure</string>
+    <string name="radioBtnTempoYes">Edit Tempo</string>
+    <string name="radioBtnTempoNo">Do not edit Tempo</string>
+    <string name="btnApplyChanges">Apply changes</string>
+    <string name="editMeasureOrTempoError">Change at least one</string>
+    <string name="xmlCreated">Sheet created in </string>
+    <string name="xmlDirectory">/storage/emulated/0/sound-to-music-sheet/Sheets/</string>
+
+    <string name="message">Message</string>
+    <string name="musicSheetCreated">The music sheet has been created</string>
+    <string name="musicSheetEdited">The music sheet has been edited. If you made changes in measure, these will be reflected when the music sheet creates a new measure.</string>
+    <string name="title_activity_load_music_sheet">LoadMusicSheetActivity</string>
+
+    <string name="btnAddXmlFile">Select a\nxmlFile</string>
+    <string name="btnValidateXmlFile">Validate\nxmlFile</string>
+    <string name="btnContinue">Continue</string>
+    <string name="chkBoxDeleteRestAtEnd">Delete rests at\nend of xml File</string>
+    <string name="fileLoaded">The file has been loaded</string>
+    <string name="fileError">The select file\nis not a xmlFile</string>
+    <string name="validXmlFile">The xmlFile is valid</string>
+    <string name="invalidXmlFile1">The xmlFile is\nmore that one staff</string>
+    <string name="invalidXmlFile2">The xmlFile is\na piano sheet</string>
+    <string name="invalidXmlFile3">The xmlFile is\nmore that one voice</string>
+    <string name="invalidXmlFile4">The xmlFile is\nnot melody music sheet</string>
+    <string name="invalidXmlFile5">The xmlFile is\nnot a music sheet</string>
+    <string name="editInfoTitle">Edit xml information</string>
+    <string name="editInfoMessage">Do you want to edit information in the music sheet?</string>
+    <string name="chkBoxDeleteRestAtStart">Delete rests at start\nof music sheet</string>
+</resources>

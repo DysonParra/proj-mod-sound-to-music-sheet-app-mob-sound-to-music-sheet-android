@@ -1,0 +1,50 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnAddXmlFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnAddXmlFile"
+        android:textSize="@dimen/textViewSize"
+        android:layout_above="@+id/btnValidateXmlFile"
+    />
+
+    <Button
+        android:id="@+id/btnValidateXmlFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerInParent="true"
+        android:text="@string/btnValidateXmlFile"
+        android:textSize="@dimen/textViewSize"
+    />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnValidateXmlFile"
+        android:text="@string/btnContinue"
+        android:textSize="@dimen/textViewSize"
+    />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chkBoxDeleteRestAtEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnContinue"
+        android:text="@string/chkBoxDeleteRestAtEnd"
+        android:textSize="@dimen/textViewSize"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnRecord"
+    />
+
+    <Button
+        android:id="@+id/btnEditInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnRecord"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnEditInformation"
+    />
+
+    <Button
+        android:id="@+id/btnEndMusicSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/btnEditInformation"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnEndMusicSheet"
+    />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chkBoxDeleteRestAtStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEndMusicSheet"
+        android:text="@string/chkBoxDeleteRestAtStart"
+        android:textSize="@dimen/textViewSize"
+    />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/chkBoxDeleteRestAtStart"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="Mostrar lista"
+    />
+
+</RelativeLayout>

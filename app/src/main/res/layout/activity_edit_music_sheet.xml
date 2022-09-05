@@ -1,0 +1,342 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@android:color/darker_gray"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMeasure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/radioBtnMeasureYes"
+    >
+
+        <RadioButton
+            android:id="@+id/radioBtnMeasureYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginRight"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/radioBtnMeasureYes"
+        />
+
+        <RadioButton
+            android:id="@+id/radioBtnMeasureNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/radioBtnMeasureNo"
+
+        />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/radioGroupMeasure"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/txtMeasureIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtMeasureIndicator"
+        />
+
+        <Spinner
+            android:id="@+id/spnNoteQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_below="@+id/txtSignature"
+            android:layout_toRightOf="@id/txtMeasureIndicator"
+            android:layout_alignBaseline="@+id/txtMeasureIndicator"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/measureQuantity"
+        >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txtSlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSignature"
+            android:layout_toRightOf="@id/spnNoteQuantity"
+            android:layout_alignBaseline="@+id/txtMeasureIndicator"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtSlash"
+        />
+
+        <Spinner
+            android:id="@+id/spnNoteType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_below="@+id/txtSignature"
+            android:layout_toRightOf="@id/txtSlash"
+            android:layout_alignBaseline="@+id/txtMeasureIndicator"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/measureType"
+        >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txtCLef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtClef"
+        />
+
+        <Spinner
+            android:id="@+id/spnKey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0sp"
+            android:layout_marginRight="0sp"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:layout_toRightOf="@id/txtCLef"
+            android:layout_alignBaseline="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/key"
+        >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txtIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="0sp"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:layout_toRightOf="@id/spnKey"
+            android:layout_alignBaseline="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtIn"
+        />
+
+        <Spinner
+            android:id="@+id/spnKeyLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0sp"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:layout_toRightOf="@id/txtIn"
+            android:layout_alignBaseline="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/keyLine"
+        >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txtTranspose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="0sp"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:layout_toRightOf="@id/spnKeyLine"
+            android:layout_alignBaseline="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtTranspose"
+        />
+
+        <Spinner
+            android:id="@+id/spnTranspose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_below="@+id/txtMeasureIndicator"
+            android:layout_toRightOf="@id/txtTranspose"
+            android:layout_alignBaseline="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/octave"
+        >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/txtSignature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_below="@+id/txtCLef"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtSignature"
+        />
+
+        <Spinner
+            android:id="@+id/spnSignature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_below="@+id/txtA4"
+            android:layout_toRightOf="@id/txtSignature"
+            android:layout_alignBaseline="@+id/txtSignature"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/signature"
+
+        >
+        </Spinner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txtSignature"
+            android:background="@android:color/darker_gray"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/relativeLayoutMeasure"
+        android:background="@android:color/darker_gray"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_below="@+id/relativeLayoutMeasure"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/radioBtnTempoYes"
+    >
+
+        <RadioButton
+            android:id="@+id/radioBtnTempoYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/marginRight"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/radioBtnTempoYes"
+        />
+
+        <RadioButton
+            android:id="@+id/radioBtnTempoNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/radioBtnTempoNo"
+
+        />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/radioGroupTempo"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/txtTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtTempo"
+        />
+
+        <Spinner
+            android:id="@+id/spnTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="0sp"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_toRightOf="@id/txtTempo"
+            android:textSize="@dimen/textViewSize"
+            android:entries="@array/tempo"
+        >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/editTextTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="0sp"
+            android:layout_toRightOf="@id/spnTempo"
+            android:layout_alignBaseline="@+id/txtTempo"
+            android:textSize="@dimen/textViewSize"
+            android:ems="2"
+            android:inputType="number"
+            android:text="60"
+            android:maxLength="3"
+        />
+
+        <TextView
+            android:id="@+id/txtBpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0sp"
+            android:layout_marginRight="0sp"
+            android:layout_toRightOf="@id/editTextTempo"
+            android:layout_alignBaseline="@+id/txtTempo"
+            android:textSize="@dimen/textViewSize"
+            android:text="@string/txtBpm"
+        />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/relativeLayoutTempo"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:layout_below="@+id/relativeLayoutTempo"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewSize"
+        android:text="@string/btnApplyChanges"
+    />
+
+</RelativeLayout>

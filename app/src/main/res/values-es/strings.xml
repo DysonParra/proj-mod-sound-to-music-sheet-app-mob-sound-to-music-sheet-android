@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtAppName">Sound to music sheet</string>
+    <string name="btnNewMusicSheet">Crear partitura</string>
+    <string name="btnEditMusicSheet">Añadir notas al final de\nuna partitura existente</string>
+    <string name="btnExit">Salir</string>
+
+    <string name="txtA4">Afinación de La4</string>
+    <string name="txtHz">Hertz</string>
+    <string name="txtSignature">Armadura de clave</string>
+    <string name="txtMeasureIndicator">Indicador de compás</string>
+    <string name="txtSlash">/</string>
+    <string name="txtClef">Clave</string>
+    <string name="txtIn">en</string>
+    <string name="txtTranspose">transportar</string>
+    <string name="txtTempo">Tempo</string>
+    <string name="txtIqual">=</string>
+    <string name="txtBpm">Bpm</string>
+    <string name="btnStart">Comenzar</string>
+
+    <string-array name="signature">
+        <item>Sin armadura</item>
+        <item>Si♭</item>
+        <item>Mi♭</item>
+        <item>La♭</item>
+        <item>Re♭</item>
+        <item>Sol♭</item>
+        <item>Do♭</item>
+        <item>Fa♭</item>
+        <item>Fa♯</item>
+        <item>Do♯</item>
+        <item>Sol♯</item>
+        <item>Re♯</item>
+        <item>La♯</item>
+        <item>Mi♯</item>
+        <item>Si♯</item>
+    </string-array>
+
+    <string-array name="measureQuantity">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="measureType">
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="key">
+        <item>Sol</item>
+        <item>Fa</item>
+        <item>Do</item>
+    </string-array>
+
+    <string-array name="keyLine">
+        <item>5ta</item>
+        <item>4ta</item>
+        <item>3ra</item>
+        <item>2da</item>
+        <item>1ra</item>
+    </string-array>
+
+    <string-array name="octave">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+    <string-array name="tempo">
+        <item>B</item>
+        <item>♩</item>
+        <item>♪</item>
+    </string-array>
+
+    <string name="A4Error">Escriba una afinación de La4 entre 30 y 3520</string>
+    <string name="tempoError">Escriba un tempo entre 10 y 210</string>
+    <string name="backBtn">atrás</string>
+    <string name="cancelRecord">¿Está seguro que desea terminar la grabación sin guardar?</string>
+
+    <string name="btnNext">Continuar</string>
+    <string name="txtVolume">Escriba el mínimo volumen para detectar notas:</string>
+    <string name="txtPercent">%</string>
+    <string name="txtMaxVolume">Máximo volumen:</string>
+    <string name="volumeError">Escriba un volumen entre 0 y 99</string>
+
+    <string name="btnRecord">Grabar</string>
+    <string name="btnStop">Parar</string>
+    <string name="btnEditInformation">Editar información\nde la partitura</string>
+    <string name="btnEndMusicSheet">Terminar partitura</string>
+
+
+
+    <string name="radioBtnMeasureYes">Editar compás</string>
+    <string name="radioBtnMeasureNo">No editar compás</string>
+    <string name="radioBtnTempoYes">Editar Tempo</string>
+    <string name="radioBtnTempoNo">No editar Tempo</string>
+    <string name="btnApplyChanges">Aplicar cambios</string>
+    <string name="editMeasureOrTempoError">Cambie almenos uno</string>
+    <string name="xmlCreated">Partitura creada en </string>
+    <string name="xmlDirectory">/storage/emulated/0/sound-to-music-sheet/Sheets/</string>
+
+    <string name="message">Mensaje</string>
+    <string name="musicSheetCreated">Se ha creado la partitura</string>
+    <string name="musicSheetEdited">Se ha editado la partitura. Si realizó cambios en compás estos se verán reflejados cuando la partitura cree uno nuevo.</string>
+    <string name="title_activity_load_music_sheet">LoadMusicSheetActivity</string>
+
+    <string name="btnAddXmlFile">Seleccione un\narchivo xml</string>
+    <string name="btnValidateXmlFile">Validar\narchivo xml</string>
+    <string name="btnContinue">Continuar</string>
+    <string name="chkBoxDeleteRestAtEnd">Borrar silencios al\nfinal del archivo xmle</string>
+    <string name="fileLoaded">Se ha cargado el archivo</string>
+    <string name="fileError">El archivo seleccionado\nno es un archivo xml</string>
+    <string name="validXmlFile">El archivo xml es válido</string>
+    <string name="invalidXmlFile1">El archivo xml tiene\nmás de un instrumento</string>
+    <string name="invalidXmlFile2">El archivo xml es\nuna partitura de piano</string>
+    <string name="invalidXmlFile3">El archivo xml tiene\nmás de una voz</string>
+    <string name="invalidXmlFile4">El archivo xml no\nes una partitura melódica</string>
+    <string name="invalidXmlFile5">El archivo xml no\nes una partitura</string>
+    <string name="editInfoTitle">Editar información de archivo xml</string>
+    <string name="editInfoMessage">¿Desea editar información en la partitura?</string>
+    <string name="chkBoxDeleteRestAtStart">Borrar descansos al inicio\nde la partitura</string>
+</resources>

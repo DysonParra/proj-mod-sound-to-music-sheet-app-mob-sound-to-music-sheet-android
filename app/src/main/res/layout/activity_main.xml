@@ -1,0 +1,39 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/btnNewMusicSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnNewMusicSheet"
+        android:textSize="@dimen/textViewSize"
+        android:layout_above="@+id/btnEditMusicSheet"
+    />
+
+    <Button
+        android:id="@+id/btnEditMusicSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerInParent="true"
+        android:text="@string/btnEditMusicSheet"
+        android:textSize="@dimen/textViewSize"
+    />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textViewSize"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnEditMusicSheet"
+        android:text="@string/btnExit"
+        android:textSize="@dimen/textViewSize"
+    />
+
+</RelativeLayout>
