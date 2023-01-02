@@ -95,8 +95,8 @@
     <string name="btnEditInformation">Editar información\nde la partitura</string>
     <string name="btnEndMusicSheet">Terminar partitura</string>
 
-
-
+    <!---->
+    <!---->
     <string name="radioBtnMeasureYes">Editar compás</string>
     <string name="radioBtnMeasureNo">No editar compás</string>
     <string name="radioBtnTempoYes">Editar Tempo</string>

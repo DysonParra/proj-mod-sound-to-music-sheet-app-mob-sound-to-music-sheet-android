@@ -95,8 +95,8 @@
     <string name="btnEditInformation">Edit music sheet\ninformation</string>
     <string name="btnEndMusicSheet">End music sheet</string>
 
-
-
+    <!---->
+    <!---->
     <string name="radioBtnMeasureYes">Edit measure</string>
     <string name="radioBtnMeasureNo">Do not edit measure</string>
     <string name="radioBtnTempoYes">Edit Tempo</string>
