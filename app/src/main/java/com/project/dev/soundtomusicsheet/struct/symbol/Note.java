@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Note} se encarga de realizar tareas específicas.
+ * @fileoverview    {Note}
  *
  * @version         2.0
  *

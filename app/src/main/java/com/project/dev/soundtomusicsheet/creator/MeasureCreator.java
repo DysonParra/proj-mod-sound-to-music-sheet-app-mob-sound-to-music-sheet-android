@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MeasureCreator} se encarga de realizar tareas específicas.
+ * @fileoverview    {MeasureCreator}
  *
  * @version         2.0
  *

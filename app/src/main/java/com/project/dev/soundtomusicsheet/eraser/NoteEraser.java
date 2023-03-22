@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NoteEraser} se encarga de realizar tareas específicas.
+ * @fileoverview    {NoteEraser}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MusicSheetFileWriter} se encarga de realizar tareas específicas.
+ * @fileoverview    {MusicSheetFileWriter}
  *
  * @version         2.0
  *

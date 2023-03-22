@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {NoteProcessor} se encarga de realizar tareas específicas.
+ * @fileoverview    {NoteProcessor}
  *
  * @version         2.0
  *

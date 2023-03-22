@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TunerActivity} se encarga de realizar tareas específicas.
+ * @fileoverview    {TunerActivity}
  *
  * @version         2.0
  *

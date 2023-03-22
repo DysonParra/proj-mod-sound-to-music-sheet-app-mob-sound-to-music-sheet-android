@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MeasureEraser} se encarga de realizar tareas específicas.
+ * @fileoverview    {MeasureEraser}
  *
  * @version         2.0
  *

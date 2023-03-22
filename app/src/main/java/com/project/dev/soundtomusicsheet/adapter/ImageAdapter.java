@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ImageAdapter} se encarga de realizar tareas específicas.
+ * @fileoverview    {ImageAdapter}
  *
  * @version         2.0
  *

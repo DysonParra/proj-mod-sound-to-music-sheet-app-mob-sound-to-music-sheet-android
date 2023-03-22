@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {XmlFile} se encarga de realizar tareas específicas.
+ * @fileoverview    {XmlFile}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Log} se encarga de realizar tareas específicas.
+ * @fileoverview    {Log}
  *
  * @version         2.0
  *

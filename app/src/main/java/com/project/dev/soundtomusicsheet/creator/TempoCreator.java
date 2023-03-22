@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TempoCreator} se encarga de realizar tareas específicas.
+ * @fileoverview    {TempoCreator}
  *
  * @version         2.0
  *

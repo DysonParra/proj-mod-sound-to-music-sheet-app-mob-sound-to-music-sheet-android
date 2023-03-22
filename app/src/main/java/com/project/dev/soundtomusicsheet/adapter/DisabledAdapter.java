@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {DisabledAdapter} se encarga de realizar tareas específicas.
+ * @fileoverview    {DisabledAdapter}
  *
  * @version         2.0
  *

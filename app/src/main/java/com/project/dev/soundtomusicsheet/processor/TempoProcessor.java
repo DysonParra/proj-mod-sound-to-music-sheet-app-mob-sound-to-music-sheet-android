@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TempoProcessor} se encarga de realizar tareas específicas.
+ * @fileoverview    {TempoProcessor}
  *
  * @version         2.0
  *

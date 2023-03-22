@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EditMusicSheetActivity} se encarga de realizar tareas específicas.
+ * @fileoverview    {EditMusicSheetActivity}
  *
  * @version         2.0
  *

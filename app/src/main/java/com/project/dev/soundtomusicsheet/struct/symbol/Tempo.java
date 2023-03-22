@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {Tempo} se encarga de realizar tareas específicas.
+ * @fileoverview    {Tempo}
  *
  * @version         2.0
  *
