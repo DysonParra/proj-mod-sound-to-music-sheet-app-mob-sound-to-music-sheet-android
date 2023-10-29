@@ -20,7 +20,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 
 /**
- * TODO: Definición de {@code MeasureCreator}.
+ * TODO: Description of {@code MeasureCreator}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 public class MeasureCreator {
 
     /**
-     * FIXME: Definición de {@code createMeasureFromActivity}. Crea un objeto tipo compás basado en
+     * FIXME: Description of {@code createMeasureFromActivity}. Crea un objeto tipo compás basado en
      * los campos del activity de editar información o el de nueva partitura.
      *
      * @param strNoteQuantity Es el String con la cantidad de notas que cabrán en el compas.
@@ -83,7 +83,7 @@ public class MeasureCreator {
     }
 
     /**
-     * FIXME: Definición de {@code addSeparationMeasures}. Dada una lista con notas subdivididas,
+     * FIXME: Description of {@code addSeparationMeasures}. Dada una lista con notas subdivididas,
      * agrega nodos de tipo compás cada que comience uno.
      *
      * @param sheet El objeto de tipo partitura al que se le agregarán los compases de separación.

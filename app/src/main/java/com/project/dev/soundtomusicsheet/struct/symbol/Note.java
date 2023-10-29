@@ -22,7 +22,7 @@ import java.io.PrintStream;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code Note}.
+ * TODO: Description of {@code Note}.
  *
  * @author Dyson Parra
  * @since 11
@@ -44,7 +44,7 @@ public class Note extends MusicSymbol {
     private int voice;                                      // Número de voz de la nota en el pentagrama (Siempre se usará la primera voz).
 
     /**
-     * TODO: Definición de {@code Note}.
+     * TODO: Description of {@code Note}.
      *
      */
     public Note() {
@@ -60,7 +60,7 @@ public class Note extends MusicSymbol {
     }
 
     /**
-     * TODO: Definición de {@code Note}.
+     * TODO: Description of {@code Note}.
      *
      * @param step
      * @param alter
@@ -83,7 +83,7 @@ public class Note extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code convertBeatsToNote}. Obtiene el tipo de nota que es basado en una
+     * FIXME: Description of {@code convertBeatsToNote}. Obtiene el tipo de nota que es basado en una
      * cantidad de pulsos recibidos.
      *
      * @param beats     Es la cantidad de pulsos recibidos.
@@ -135,7 +135,7 @@ public class Note extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code addToXmlFile}. Escribe una nota dada en una partitura.
+     * FIXME: Description of {@code addToXmlFile}. Escribe una nota dada en una partitura.
      *
      * @param source    Es la ruta del archivo de partitura.
      * @param divisions Indica las divisiones de la partitura.
@@ -276,7 +276,7 @@ public class Note extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
+     * FIXME: Description of {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
      */
     @Override
     public void printMusicSymbol() {

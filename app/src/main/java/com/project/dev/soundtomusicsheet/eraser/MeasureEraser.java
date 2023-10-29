@@ -19,7 +19,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Measure;
 import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 
 /**
- * TODO: Definición de {@code MeasureEraser}.
+ * TODO: Description of {@code MeasureEraser}.
  *
  * @author Dyson Parra
  * @since 11
@@ -27,7 +27,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 public class MeasureEraser {
 
     /**
-     * FIXME: Definición de {@code deleteSeparationMeasures}. Busca los compases de separación en un
+     * FIXME: Description of {@code deleteSeparationMeasures}. Busca los compases de separación en un
      * objeto de tipo partitura y los borra.
      *
      * @param sheet El objeto de tipo partitura al que se le borrarán los compases de separación.

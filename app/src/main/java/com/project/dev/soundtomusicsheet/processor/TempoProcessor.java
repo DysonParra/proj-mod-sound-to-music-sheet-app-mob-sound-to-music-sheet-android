@@ -19,7 +19,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 
 /**
- * TODO: Definición de {@code TempoProcessor}.
+ * TODO: Description of {@code TempoProcessor}.
  *
  * @author Dyson Parra
  * @since 11
@@ -27,7 +27,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 public class TempoProcessor {
 
     /**
-     * FIXME: Definición de {@code findLastTempo}. Busca en un objeto de tipo partitura el último
+     * FIXME: Description of {@code findLastTempo}. Busca en un objeto de tipo partitura el último
      * nodo tipo tempo.
      *
      * @param sheet El objeto de tipo partitura al que se le buscará el último nodo tipo tempo.

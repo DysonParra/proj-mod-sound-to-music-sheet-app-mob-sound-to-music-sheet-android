@@ -24,7 +24,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 /**
- * TODO: Definición de {@code DisabledAdapter}.
+ * TODO: Description of {@code DisabledAdapter}.
  *
  * @author Dyson Parra
  * @since 11
@@ -34,7 +34,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     private boolean enabledItems[];                                 // Atributos para adapter de desabilitable.
 
     /**
-     * TODO: Definición de {@code DisabledAdapter}.
+     * TODO: Description of {@code DisabledAdapter}.
      *
      * @param context
      * @param strings
@@ -49,7 +49,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code createFromResource}. Crea un adapter desabilitable en base a un
+     * FIXME: Description of {@code createFromResource}. Crea un adapter desabilitable en base a un
      * array en values.xml
      *
      * @param context        Indica el contexto donde se creará el adapter.
@@ -63,7 +63,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code areAllItemsEnabled}. Devuelve si tiene todos los items
+     * FIXME: Description of {@code areAllItemsEnabled}. Devuelve si tiene todos los items
      * habilitados.
      *
      * @return
@@ -74,7 +74,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code isEnabled}. Obtiene si el item está habilitado.
+     * FIXME: Description of {@code isEnabled}. Obtiene si el item está habilitado.
      *
      * @param position Indica la posición del item.
      * @return
@@ -85,7 +85,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code getDropDownView}. Obtiene la vista del item desplegado (al hacer
+     * FIXME: Description of {@code getDropDownView}. Obtiene la vista del item desplegado (al hacer
      * click en el spinner).
      *
      * @param position    Indica la posición del item.
@@ -107,7 +107,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code enableItem}. Habilita el item indicado.
+     * FIXME: Description of {@code enableItem}. Habilita el item indicado.
      *
      * @param position Indica la posición del item.
      */
@@ -117,7 +117,7 @@ public class DisabledAdapter extends ArrayAdapter<CharSequence> {
     }
 
     /**
-     * FIXME: Definición de {@code disableItem}. Deshabilita el item indicado.
+     * FIXME: Description of {@code disableItem}. Deshabilita el item indicado.
      *
      * @param position Indica la posición del item.
      */

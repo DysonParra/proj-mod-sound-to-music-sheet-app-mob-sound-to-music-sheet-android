@@ -19,7 +19,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 
 /**
- * TODO: Definición de {@code NoteEraser}.
+ * TODO: Description of {@code NoteEraser}.
  *
  * @author Dyson Parra
  * @since 11
@@ -27,7 +27,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 public class NoteEraser {
 
     /**
-     * FIXME: Definición de {@code deleteRestsAtStart}. Busca en un objeto de tipo partitura si las
+     * FIXME: Description of {@code deleteRestsAtStart}. Busca en un objeto de tipo partitura si las
      * primeras notas son silencios y las borra.
      *
      * @param sheet El objeto de tipo partitura al que se le borrarán los silencios al inicio.
@@ -62,7 +62,7 @@ public class NoteEraser {
     }
 
     /**
-     * FIXME: Definición de {@code deleteRestsAtEnd}. Busca en un objeto de tipo partitura si las
+     * FIXME: Description of {@code deleteRestsAtEnd}. Busca en un objeto de tipo partitura si las
      * últimas notas son silencios y las borra.
      *
      * @param sheet El objeto de tipo partitura al que se le borrarán los silencios al final.

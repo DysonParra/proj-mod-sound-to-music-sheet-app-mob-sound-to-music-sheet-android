@@ -22,7 +22,7 @@ import java.io.PrintStream;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code Measure}.
+ * TODO: Description of {@code Measure}.
  *
  * @author Dyson Parra
  * @since 11
@@ -43,7 +43,7 @@ public class Measure extends MusicSymbol {
     private boolean editMeasureInfo;                        // Si el objeto tipo compás edita información el la partitura (true), o es solo un compás de separación (false).
 
     /**
-     * TODO: Definición de {@code Measure}.
+     * TODO: Description of {@code Measure}.
      *
      * @param measureNumber
      */
@@ -59,7 +59,7 @@ public class Measure extends MusicSymbol {
     }
 
     /**
-     * TODO: Definición de {@code Measure}.
+     * TODO: Description of {@code Measure}.
      *
      * @param measureNumber
      * @param quantity
@@ -81,7 +81,7 @@ public class Measure extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code calculateBeats}. Obtiene cuantos pulsos caben en el compás actual
+     * FIXME: Description of {@code calculateBeats}. Obtiene cuantos pulsos caben en el compás actual
      * basado en las divisiones de la partitura.
      *
      * @param divisions Indica las divisiones de la partitura.
@@ -134,7 +134,7 @@ public class Measure extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code addToXmlFile}. Agrega un compás a la partitura.
+     * FIXME: Description of {@code addToXmlFile}. Agrega un compás a la partitura.
      *
      * @param source    Es la ruta del archivo de partitura.
      * @param divisions Indica las divisiones de la partitura.
@@ -195,7 +195,7 @@ public class Measure extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
+     * FIXME: Description of {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
      */
     @Override
     public void printMusicSymbol() {

@@ -26,7 +26,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
 /**
- * TODO: Definición de {@code ImageAdapter}.
+ * TODO: Description of {@code ImageAdapter}.
  *
  * @author Dyson Parra
  * @since 11
@@ -37,7 +37,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
     private Context mContext;                                           // Contexto donde se aplicará el adapter.
 
     /**
-     * TODO: Definición de {@code ImageAdapter}.
+     * TODO: Description of {@code ImageAdapter}.
      *
      * @param context
      * @param images
@@ -49,7 +49,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
     }
 
     /**
-     * FIXME: Definición de {@code getDropDownView}. Obtiene la vista del item desplegado (al hacer
+     * FIXME: Description of {@code getDropDownView}. Obtiene la vista del item desplegado (al hacer
      * click en el spinner).
      *
      * @param position    Indica la posición del item.
@@ -62,7 +62,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
     }
 
     /**
-     * FIXME: Definición de {@code getCount}. Obtiene la cantidad de elementos del spinner.
+     * FIXME: Description of {@code getCount}. Obtiene la cantidad de elementos del spinner.
      *
      * @return
      */
@@ -72,7 +72,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
     }
 
     /**
-     * FIXME: Definición de {@code getView}. Obtiene la vista del item (antes de dar click).
+     * FIXME: Description of {@code getView}. Obtiene la vista del item (antes de dar click).
      *
      * @param position    Indica la posición del item.
      * @param convertView Indica el convertView del item.
@@ -100,7 +100,7 @@ public class ImageAdapter extends ArrayAdapter<String> {
     }
 
     /**
-     * FIXME: Definición de {@code ViewHolder}. Obtiene el ViewHolder del spinner.
+     * FIXME: Description of {@code ViewHolder}. Obtiene el ViewHolder del spinner.
      */
     private static class ViewHolder {
 

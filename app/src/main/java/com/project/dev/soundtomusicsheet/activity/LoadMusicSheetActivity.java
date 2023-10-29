@@ -32,7 +32,7 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 
 /**
- * TODO: Definición de {@code LoadMusicSheetActivity}.
+ * TODO: Description of {@code LoadMusicSheetActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -189,7 +189,7 @@ public class LoadMusicSheetActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Definición de {@code onActivityResult}. Comportamiento luego de salir del intent de
+     * FIXME: Description of {@code onActivityResult}. Comportamiento luego de salir del intent de
      * seleccionar archivo xml.
      *
      * @param requestCode

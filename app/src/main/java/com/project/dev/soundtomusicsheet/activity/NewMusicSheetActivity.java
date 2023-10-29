@@ -35,7 +35,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 /**
- * TODO: Definición de {@code NewMusicSheetActivity}.
+ * TODO: Description of {@code NewMusicSheetActivity}.
  *
  * @author Dyson Parra
  * @since 11

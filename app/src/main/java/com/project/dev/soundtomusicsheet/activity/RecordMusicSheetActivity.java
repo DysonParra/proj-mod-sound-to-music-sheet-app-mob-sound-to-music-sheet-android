@@ -46,7 +46,7 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 
 /**
- * TODO: Definición de {@code RecordMusicSheetActivity}.
+ * TODO: Description of {@code RecordMusicSheetActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -260,7 +260,7 @@ public class RecordMusicSheetActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Definición de {@code onKeyDown}. Comportamiento del botón atrás.
+     * FIXME: Description of {@code onKeyDown}. Comportamiento del botón atrás.
      *
      * @param keyCode
      * @param event
@@ -294,7 +294,7 @@ public class RecordMusicSheetActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Definición de {@code startAudioProcessing}. Comienza con el procesamiento del audio.
+     * FIXME: Description of {@code startAudioProcessing}. Comienza con el procesamiento del audio.
      */
     private void startAudioProcessing() {
 

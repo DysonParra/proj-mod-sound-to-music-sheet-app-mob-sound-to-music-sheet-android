@@ -15,7 +15,7 @@
 package com.project.dev;
 
 /**
- * TODO: Definición de {@code Log}.
+ * TODO: Description of {@code Log}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,7 +23,7 @@ package com.project.dev;
 public class Log {
 
     /**
-     * TODO: Definición de {@code d}.
+     * TODO: Description of {@code d}.
      *
      * @param Type
      * @param message

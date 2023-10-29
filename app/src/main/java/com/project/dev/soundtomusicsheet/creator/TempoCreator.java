@@ -17,7 +17,7 @@ package com.project.dev.soundtomusicsheet.creator;
 import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 
 /**
- * TODO: Definición de {@code TempoCreator}.
+ * TODO: Description of {@code TempoCreator}.
  *
  * @author Dyson Parra
  * @since 11
@@ -25,7 +25,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 public class TempoCreator {
 
     /**
-     * FIXME: Definición de {@code createTempoFromActivity}. Crea un objeto tipo tempo basado en los
+     * FIXME: Description of {@code createTempoFromActivity}. Crea un objeto tipo tempo basado en los
      * campos del activity de editar información o el de nueva partitura.
      *
      * @param spnTempoId Es el indice del Spinner con la figura del tempo.

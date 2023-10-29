@@ -20,7 +20,7 @@ import java.io.Serializable;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code MusicSheet}.
+ * TODO: Description of {@code MusicSheet}.
  *
  * @author Dyson Parra
  * @since 11
@@ -71,7 +71,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code printMusicSheet}. Muestra en pantalla los elementos de la lista.
+     * FIXME: Description of {@code printMusicSheet}. Muestra en pantalla los elementos de la lista.
      */
     public void printMusicSheet() {
         // Muestra la cantidad de nodos.
@@ -102,7 +102,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code addSymbol}. Agrega un simbolo musical a lista ligada Circular.
+     * FIXME: Description of {@code addSymbol}. Agrega un simbolo musical a lista ligada Circular.
      *
      * @param symbol    Es el simbolo musical que se insertará.
      * @param reference Es un simbolo musical base para insertar este nuevo nodo, ya sea antes o
@@ -161,7 +161,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code deleteSymbol}. Quita un nodo de una lista ligada Circular.
+     * FIXME: Description of {@code deleteSymbol}. Quita un nodo de una lista ligada Circular.
      *
      * @param nodo Indica el nodo que se borrará de la lista.
      */
@@ -183,7 +183,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code swapSymbols}. Intercambia la posición de dos nodos en una lista
+     * FIXME: Description of {@code swapSymbols}. Intercambia la posición de dos nodos en una lista
      * ligada circular.
      *
      * @param nodo1 El primer nodo.
@@ -282,7 +282,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code refreshListNumbers}. Actualiza los números de cada simbolo
+     * FIXME: Description of {@code refreshListNumbers}. Actualiza los números de cada simbolo
      * musical de la lista.
      */
     public void refreshListNumbers() {
@@ -297,7 +297,7 @@ public class MusicSheet implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code addMusicSheet}. Liga la partitura con una partitura parámetro
+     * FIXME: Description of {@code addMusicSheet}. Liga la partitura con una partitura parámetro
      * ligando el último nodo con el primero de la partitura parámetro. Como resultado se obtiene
      * que ambas partituras ahora comparten los mismos nodos, pero no los demás atributos.
      *

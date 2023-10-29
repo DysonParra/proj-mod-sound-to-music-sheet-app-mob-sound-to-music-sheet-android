@@ -24,7 +24,7 @@ import java.io.FileWriter;
 import android.os.Environment;
 
 /**
- * TODO: Definición de {@code MusicSheetFileWriter}.
+ * TODO: Description of {@code MusicSheetFileWriter}.
  *
  * @author Dyson Parra
  * @since 11
@@ -32,7 +32,7 @@ import android.os.Environment;
 public class MusicSheetFileWriter {
 
     /**
-     * FIXME: Definición de {@code CreateXMLFile}. Crea un archivo xml vacío.
+     * FIXME: Description of {@code CreateXMLFile}. Crea un archivo xml vacío.
      *
      * @param musicSheet
      */
@@ -93,7 +93,7 @@ public class MusicSheetFileWriter {
     }
 
     /**
-     * FIXME: Definición de {@code WriteBasicInfoToXmlFile}. Escribe en un archivo xml la
+     * FIXME: Description of {@code WriteBasicInfoToXmlFile}. Escribe en un archivo xml la
      * información básica que debe tener una partitura.
      *
      * @param musicSheet
@@ -178,7 +178,7 @@ public class MusicSheetFileWriter {
     }
 
     /**
-     * FIXME: Definición de {@code endXmlFile}. Escribe en la partitura código para finalizarla.
+     * FIXME: Description of {@code endXmlFile}. Escribe en la partitura código para finalizarla.
      *
      * @param musicSheet
      */
@@ -209,7 +209,7 @@ public class MusicSheetFileWriter {
     }
 
     /**
-     * FIXME: Definición de {@code addListToXML}. Agrega los nodos de un objeto de tipo partitura a
+     * FIXME: Description of {@code addListToXML}. Agrega los nodos de un objeto de tipo partitura a
      * un archivo de partitura.
      *
      * @param musicSheet
@@ -225,7 +225,7 @@ public class MusicSheetFileWriter {
     }
 
     /**
-     * FIXME: Definición de {@code writeMusicSheetToXmlFile}. Realiza el proceso desde creación
+     * FIXME: Description of {@code writeMusicSheetToXmlFile}. Realiza el proceso desde creación
      * hasta finalización del xml.
      *
      * @param musicSheet Es la partitura que se escribirá en un archivo xml.

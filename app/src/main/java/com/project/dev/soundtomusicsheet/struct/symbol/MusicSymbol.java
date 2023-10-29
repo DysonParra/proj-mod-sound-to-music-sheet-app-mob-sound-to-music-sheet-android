@@ -18,7 +18,7 @@ import java.io.Serializable;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code MusicSymbol}.
+ * TODO: Description of {@code MusicSymbol}.
  *
  * @author Dyson Parra
  * @since 11
@@ -34,7 +34,7 @@ public abstract class MusicSymbol implements Serializable {
     private MusicSymbol prev;                               // anterior nodo.
 
     /**
-     * TODO: Definición de {@code addToXmlFile}.
+     * TODO: Description of {@code addToXmlFile}.
      *
      * @param source
      * @param divisions
@@ -42,7 +42,7 @@ public abstract class MusicSymbol implements Serializable {
     public abstract void addToXmlFile(String source, int divisions);
 
     /**
-     * TODO: Definición de {@code printMusicSymbol}.
+     * TODO: Description of {@code printMusicSymbol}.
      *
      */
     public abstract void printMusicSymbol();

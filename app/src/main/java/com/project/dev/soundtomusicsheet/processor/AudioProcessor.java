@@ -25,7 +25,7 @@ import android.util.Log;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code AudioProcessor}.
+ * TODO: Description of {@code AudioProcessor}.
  *
  * @author Dyson Parra
  * @since 11
@@ -37,7 +37,7 @@ import lombok.Data;
 public class AudioProcessor implements Runnable {
 
     /**
-     * FIXME: Definición de {@code SamplesListener}. Contiene parte del código que se ejecuta en el
+     * FIXME: Description of {@code SamplesListener}. Contiene parte del código que se ejecuta en el
      * runnable.
      */
     public interface SamplesListener {
@@ -58,7 +58,7 @@ public class AudioProcessor implements Runnable {
     private float maxFrequency;                                     // Máxima frecuencia para que una nota no sea ignorada (C#8 = 4434.921).
 
     /**
-     * TODO: Definición de {@code AudioProcessor}.
+     * TODO: Description of {@code AudioProcessor}.
      *
      */
     public AudioProcessor() {
@@ -67,7 +67,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code AudioProcessor}.
+     * TODO: Description of {@code AudioProcessor}.
      *
      * @param A4Affination
      */
@@ -80,7 +80,7 @@ public class AudioProcessor implements Runnable {
      * Crea e inicializa objetos para imprimir en el Log.
      */
     /**
-     * FIXME: Definición de {@code init}. Inicializa el grabador de audio.
+     * FIXME: Description of {@code init}. Inicializa el grabador de audio.
      */
     public void init() {
         Log.d("printList", String.valueOf("Pasa 1 init"));
@@ -109,7 +109,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Definición de {@code run}. Invocado cuando comienza a grabar audio.
+     * FIXME: Description of {@code run}. Invocado cuando comienza a grabar audio.
      */
     @Override
     public void run() {
@@ -155,7 +155,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Definición de {@code stop}. Indica al Runnable (run) que deje de obtener muestras de
+     * FIXME: Description of {@code stop}. Indica al Runnable (run) que deje de obtener muestras de
      * amplitud (grabar).
      */
     public void stop() {
@@ -167,7 +167,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Definición de {@code getAverageIntensity}. Obtiene la amplitud promedio de las
+     * FIXME: Description of {@code getAverageIntensity}. Obtiene la amplitud promedio de las
      * muestras almacenadas en un array.
      *
      * @param data   Es la matriz con las muestras.
@@ -183,7 +183,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Definición de {@code getZeroCrossingCount}. Obtiene la cantidad de saltos entre
+     * FIXME: Description of {@code getZeroCrossingCount}. Obtiene la cantidad de saltos entre
      * positivo y negativo en las muestras leídas.
      *
      * @param data Es la matriz con las muestras.
@@ -208,7 +208,7 @@ public class AudioProcessor implements Runnable {
     }
 
     /**
-     * FIXME: Definición de {@code getPitch}. Obtiene la frecuencia (en Hertz) de las muestras
+     * FIXME: Description of {@code getPitch}. Obtiene la frecuencia (en Hertz) de las muestras
      * leídas.
      *
      * @param data       Es la matriz con las muestras.

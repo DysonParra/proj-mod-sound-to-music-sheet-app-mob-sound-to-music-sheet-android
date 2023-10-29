@@ -21,7 +21,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Sound;
 import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 
 /**
- * TODO: Definición de {@code SoundProcessor}.
+ * TODO: Description of {@code SoundProcessor}.
  *
  * @author Dyson Parra
  * @since 11
@@ -29,7 +29,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 public class SoundProcessor {
 
     /**
-     * FIXME: Definición de {@code makeFrequencyMatrix}. Calcula las frecuencias de todas las notas
+     * FIXME: Description of {@code makeFrequencyMatrix}. Calcula las frecuencias de todas las notas
      * usado como base la afinación de A4.
      *
      * @param A4 Es el valor de la frecuencia de A4.
@@ -49,7 +49,7 @@ public class SoundProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code makeIntervalMatrix}. Crea una matriz con los intervalos de cada
+     * FIXME: Description of {@code makeIntervalMatrix}. Crea una matriz con los intervalos de cada
      * nota basados en la matriz de frecuencias. Dado que las frecuencias de las notas son números
      * exactos como G4# = 415,305Hz, A4 = 440Hz, A4# = 466,164Hz, si tenemos por ejemplo una
      * frecuencia de 438Hz, y la comparamos con los valores de la matriz de frecuencias, nos dará
@@ -100,7 +100,7 @@ public class SoundProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code calculateNote}. Obtiene una nota basado en un objeto de tipo
+     * FIXME: Description of {@code calculateNote}. Obtiene una nota basado en un objeto de tipo
      * sonido, una matriz de intervalos, un tempo (en negra), el volumén mínimo y las divisiones de
      * la partitura.
      *
@@ -207,7 +207,7 @@ public class SoundProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code convertSoundsToNotes}. Convierte los sonidos de un objeto de tipo
+     * FIXME: Description of {@code convertSoundsToNotes}. Convierte los sonidos de un objeto de tipo
      * partitura en su nota equivalente.
      *
      * @param sheet El objeto de tipo partitura al que se le convertirán sus nodos tipo sonido.

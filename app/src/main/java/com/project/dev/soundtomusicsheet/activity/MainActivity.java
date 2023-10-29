@@ -23,7 +23,7 @@ import android.widget.Button;
 import com.project.dev.soundtomusicsheet.R;
 
 /**
- * TODO: Definición de {@code MainActivity}.
+ * TODO: Description of {@code MainActivity}.
  *
  * @author Dyson Parra
  * @since 11

@@ -22,7 +22,7 @@ import java.io.PrintStream;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code Tempo}.
+ * TODO: Description of {@code Tempo}.
  *
  * @author Dyson Parra
  * @since 11
@@ -37,7 +37,7 @@ public class Tempo extends MusicSymbol {
     private int value;                                      // Cantidad de pulsos del tempo.
 
     /**
-     * TODO: Definición de {@code Tempo}.
+     * TODO: Description of {@code Tempo}.
      *
      */
     public Tempo() {
@@ -46,7 +46,7 @@ public class Tempo extends MusicSymbol {
     }
 
     /**
-     * TODO: Definición de {@code Tempo}.
+     * TODO: Description of {@code Tempo}.
      *
      * @param type
      * @param tempo
@@ -57,7 +57,7 @@ public class Tempo extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code addToXmlFile}. Agrega un cambio en el tempo de la partitura.
+     * FIXME: Description of {@code addToXmlFile}. Agrega un cambio en el tempo de la partitura.
      *
      * @param source    Es la ruta del archivo de partitura.
      * @param divisions Indica las divisiones de la partitura.
@@ -91,7 +91,7 @@ public class Tempo extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
+     * FIXME: Description of {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
      */
     @Override
     public void printMusicSymbol() {

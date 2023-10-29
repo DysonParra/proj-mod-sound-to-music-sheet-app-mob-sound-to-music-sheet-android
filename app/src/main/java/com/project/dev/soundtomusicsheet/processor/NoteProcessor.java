@@ -20,7 +20,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
 import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 
 /**
- * TODO: Definición de {@code NoteProcessor}.
+ * TODO: Description of {@code NoteProcessor}.
  *
  * @author Dyson Parra
  * @since 11
@@ -28,7 +28,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Note;
 public class NoteProcessor {
 
     /**
-     * FIXME: Definición de {@code convertDivisionsToThirtyTwo}. Convierte un objeto de partitura
+     * FIXME: Description of {@code convertDivisionsToThirtyTwo}. Convierte un objeto de partitura
      * con un valor de divisions diferente a 32 a uno con 32.
      *
      * @param sheet El objeto de tipo partitura al que se le cambiarán las divisiones a 32.
@@ -53,7 +53,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code uniteTies}. Une las notas con ligadora en una misma nota.
+     * FIXME: Description of {@code uniteTies}. Une las notas con ligadora en una misma nota.
      *
      * @param sheet El objeto de tipo partitura al que se le borrarán las liguduras.
      */
@@ -92,7 +92,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code iqualNotes}. Verifica si dos notas tienen la misma altura.
+     * FIXME: Description of {@code iqualNotes}. Verifica si dos notas tienen la misma altura.
      *
      * @param nota1 La primera nota.
      * @param nota2 La segunda nota.
@@ -105,7 +105,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code uniteNotes}. Une las notas iguales y adyacentes en una misma
+     * FIXME: Description of {@code uniteNotes}. Une las notas iguales y adyacentes en una misma
      * nota.
      *
      * @param sheet El objeto de tipo partitura al que se unirán las notas iguales.
@@ -139,7 +139,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code obtainNoteDivisions}. Divide una cantidad de pulsos dada, en
+     * FIXME: Description of {@code obtainNoteDivisions}. Divide una cantidad de pulsos dada, en
      * n-notas conocidas. Si la cantidad de pulsos es exactamente igual a una nota existente
      * (blanca, negra, etc...), se almacena un solo elemento en el vector.
      *
@@ -213,7 +213,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code swap}. Intercambia las posiciones de un nodo y su nodo anterior
+     * FIXME: Description of {@code swap}. Intercambia las posiciones de un nodo y su nodo anterior
      * si es un nodo tipo compás, o el anterior y el anterior a ese si son un nodo tipo tempo y un
      * nodo tipo compás respectivamente.
      *
@@ -253,7 +253,7 @@ public class NoteProcessor {
     }
 
     /**
-     * FIXME: Definición de {@code divideNotes}. Divide las notas de una lista en n-notas con
+     * FIXME: Description of {@code divideNotes}. Divide las notas de una lista en n-notas con
      * ligadura dependiendo de la duración de la nota y si cabe en el compás actual.
      *
      * @param sheet La partitura a la que se le dividirán las notas en n-notas con ligadura.

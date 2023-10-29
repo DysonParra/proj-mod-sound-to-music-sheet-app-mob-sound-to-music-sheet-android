@@ -37,7 +37,7 @@ import com.androidplot.xy.XYSeries;
 import com.androidplot.xy.*;
 
 /**
- * TODO: Definición de {@code TunerActivity}.
+ * TODO: Description of {@code TunerActivity}.
  *
  * @author Dyson Parra
  * @since 11
@@ -159,7 +159,7 @@ public class TunerActivity extends AppCompatActivity {
     }
 
     /**
-     * FIXME: Definición de {@code startAudioProcessing}. Comienza con el procesamiento del audio.
+     * FIXME: Description of {@code startAudioProcessing}. Comienza con el procesamiento del audio.
      */
     private void startAudioProcessing() {
 

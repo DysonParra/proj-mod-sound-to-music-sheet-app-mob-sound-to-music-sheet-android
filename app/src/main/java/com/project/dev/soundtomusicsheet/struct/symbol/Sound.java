@@ -20,7 +20,7 @@ import java.io.PrintStream;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code Sound}.
+ * TODO: Description of {@code Sound}.
  *
  * @author Dyson Parra
  * @since 11
@@ -36,7 +36,7 @@ public class Sound extends MusicSymbol {
     private double intensity;                               // Intensidad (volumen) del sonido.
 
     /**
-     * TODO: Definición de {@code Sound}.
+     * TODO: Description of {@code Sound}.
      *
      */
     public Sound() {
@@ -46,7 +46,7 @@ public class Sound extends MusicSymbol {
     }
 
     /**
-     * TODO: Definición de {@code Sound}.
+     * TODO: Description of {@code Sound}.
      *
      * @param frequency
      * @param intensity
@@ -59,7 +59,7 @@ public class Sound extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code addToXmlFile}. Agrega un sonido a la partitura (una partitura no
+     * FIXME: Description of {@code addToXmlFile}. Agrega un sonido a la partitura (una partitura no
      * admite sonidos).
      *
      * @param source    Es la ruta del archivo de partitura.
@@ -70,7 +70,7 @@ public class Sound extends MusicSymbol {
     }
 
     /**
-     * FIXME: Definición de {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
+     * FIXME: Description of {@code printMusicSymbol}. Imprime el simbolo musical en pantalla.
      */
     @Override
     public void printMusicSymbol() {
