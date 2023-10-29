@@ -18,7 +18,7 @@ package com.project.dev;
  * TODO: Definición de {@code Log}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class Log {
 

@@ -23,7 +23,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Note;
  * TODO: Definición de {@code NoteProcessor}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class NoteProcessor {
 

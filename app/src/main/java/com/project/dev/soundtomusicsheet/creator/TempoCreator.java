@@ -20,7 +20,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
  * TODO: Definición de {@code TempoCreator}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class TempoCreator {
 

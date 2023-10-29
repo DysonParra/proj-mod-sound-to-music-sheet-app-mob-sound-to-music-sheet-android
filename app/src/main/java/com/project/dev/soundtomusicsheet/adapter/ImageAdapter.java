@@ -29,7 +29,7 @@ import android.widget.ImageView;
  * TODO: Definición de {@code ImageAdapter}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class ImageAdapter extends ArrayAdapter<String> {
 

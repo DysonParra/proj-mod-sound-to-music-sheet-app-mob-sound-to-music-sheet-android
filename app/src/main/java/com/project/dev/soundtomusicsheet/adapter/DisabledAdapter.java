@@ -27,7 +27,7 @@ import android.widget.TextView;
  * TODO: Definición de {@code DisabledAdapter}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class DisabledAdapter extends ArrayAdapter<CharSequence> {
 

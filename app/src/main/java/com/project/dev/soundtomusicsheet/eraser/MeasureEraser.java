@@ -22,7 +22,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.MusicSymbol;
  * TODO: Definición de {@code MeasureEraser}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class MeasureEraser {
 

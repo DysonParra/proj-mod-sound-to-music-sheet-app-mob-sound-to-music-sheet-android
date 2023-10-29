@@ -35,7 +35,7 @@ import android.widget.Toast;
  * TODO: Definición de {@code LoadMusicSheetActivity}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class LoadMusicSheetActivity extends AppCompatActivity {
 

@@ -24,7 +24,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
  * TODO: Definición de {@code SoundProcessor}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class SoundProcessor {
 

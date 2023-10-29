@@ -40,7 +40,7 @@ import com.androidplot.xy.*;
  * TODO: Definición de {@code TunerActivity}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class TunerActivity extends AppCompatActivity {
 

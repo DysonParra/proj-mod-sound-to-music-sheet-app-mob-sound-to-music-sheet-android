@@ -38,7 +38,7 @@ import android.widget.Toast;
  * TODO: Definición de {@code NewMusicSheetActivity}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class NewMusicSheetActivity extends AppCompatActivity {
 
